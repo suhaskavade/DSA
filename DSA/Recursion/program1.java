@@ -17,6 +17,12 @@ public class program1 {
         non_tail(--num);
         System.out.println(num);
     }
+
+    // Binary Recursion
+    void binary_rec(){
+        tail(10);
+        non_tail(200);
+    }
 }
 
 class solution{
